@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* top section start*/
+.top {
+    overflow: hidden;
+    width: 100%;
+    background-color: #535D69;
+}
+
+.wrapper {
+    overflow: hidden;
+   
+    width: 67%;
+    margin: 0 auto;
+}
+
+.top-left {
+    margin: 10px 0 0 0;
+    float: left;
+    width: 20%;
+}
+.top-left h4{
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.top-right {
+    width: 20%;
+    float: right;
+}
+.top-icon{
+    float: left;
+    margin: 10px 20px 0 35px;
+    
+}
+
+.top-icon a img{
+    width: 15px;
+    padding: 0 15px 0px 0px;
+
+}
+.top-button{
+    
+
+}
+.top-button button{
+    
+    height: 40px;
+    width: 38%;
+    color: #FFFFFF;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    
+
+}
+.top-button button:hover{
+    color: #535D69;
+}
+.top-button button:focus{
+    outline: none;
+}
+/*top section end */
+
+/* header section start*/
+.header {
+   
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    width: 10%;
+    padding: 25px 0 30px 0;
+}
+
+.menu {
+    overflow: hidden;
+    width: 85%;
+    float: right;
+    margin: -54px 0px 0 0;
+}
+.menu ul{
+    float: right;
+
+    list-style: none;
+
+}
+.menu ul li{
+    float: left;
+   
+
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #A7A7A7;
+    transition: 0.5s;
+    padding: 0 70px 0 0;
+
+}
+.menu ul li a:hover{
+    color: #CD3B62;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+/* header section end */
+
+/* banner satrt */
+.banner{
+   
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.banner-content{
+   
+    width: 45%;
+    margin: 150px 0 150px 0;
+
+}
+.banner-content h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    color: white;
+
+}
+.banner-content p{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 30px 0 30px 0;
+    line-height: 25px;
+
+}
+.banner-content button{
+    font-family: sans-serif;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    width: 230px;
+    height: 33px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.banner-content button:hover{
+    color: #535D69;
+}
+
+/* banner end */
+
+/*work defination start */
+.workingdefination{
+    overflow: hidden;
+    margin: 100px 0 100px 0;
+
+}
+
+
+.defination{
+    width: 80%;
+   
+    margin: 0 auto 80px;
+
+}
+.defination h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0 0 0 370px;
+
+}
+.defination p{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 12px 0 0 0;
+
+}
+.singlediv{
+    width: 25%;
+    float: left;
+    margin: 0 158px 0 0;
+
+}
+.singlediv img{
+    margin: 0 0 0 40px;
+
+}
+.singlediv h4{
+    font-family: sans-serif;
+    line-height: 23px;
+
+
+}
+.singlediv:last-child{
+    margin-right: 0;
+}
+
+/*work defination end */
+
+/*learning section start */
+
+.learn{
+    overflow: hidden;
+    background-color: rgba(250, 250, 250, 0.6);
+    padding: 150px 0 150px 0
+   
+
+}
+.learndoc{
+    float: left;
+    width: 45%;
+    
+
+}
+.learndoc h1{
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+.learndoc p{
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 25px 0 25px 0;
+
+}
+.learndoc button{
+    font-family: sans-serif;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    width: 125px;
+    height: 40px;
+    cursor: pointer; 
+
+}
+.learnvideo{
+    float: left;
+    width: 45%;
+
+}
+
+/*learning section end */
+
+/* feature start */
+
+.feature {
+    overflow: hidden;
+    padding: 100px 0 105px 0;
+   
+}
+
+
+.doc {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.doc h1{
+    margin: 0 0 25px 360px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+.doc p{
+    margin: 0 0 80px 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.row1 {
+    overflow: hidden;
+    
+}
+
+.row1feature {
+    width: 31%;
+    float: left;
+    margin: 0px 17px 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.row1feature img{
+    margin: 25px 0px 0px 165px;
+
+}
+.row1feature h4{
+    padding: 0 0px 0px 82px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 0 0 12px 0;
+
+
+}
+.row1feature p{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+    line-height: 22px;
+    padding: 0 0 0 16px;
+    
+
+}
+.row1feature:last-child{
+    margin-right: 0;
+    
+}
+.row2 {
+    overflow: hidden;
+    margin: 14px 0 0 0;
+    
+
+}
+
+.row2feature {
+    width: 31%;
+    float: left;
+    margin: 0px 17px 10px 0;
+   cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row2feature img{
+    margin: 25px 0px 0px 165px;
+
+
+}
+.row2feature h4{
+    padding: 0 0px 0px 82px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin: 0 0 12px 0;
+
+
+}
+.row2feature p{
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+    line-height: 22px;
+    padding: 0 0 0 16px;
+    
+
+}
+.row2feature:last-child{
+    margin-right: 0;
+}
+.feature button{
+    margin: 110px 0 10px 550px;
+    height: 40px;
+    width: 162px;
+    border: none;
+    background-color: white;
+    color: red;
+  cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+
+/*feature end */
+
+/* FOOTER service start */
+.footerservice {
+    background-color: gray;
+    padding: 100px 0 100px 0;
+}
+
+.contact {
+    width: 25%;
+    float: left;
+
+}
+.contact h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    margin: 0 0 31px 0;
+
+}
+.contact p{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 27px;
+    margin: 0 0 60px 0;
+
+
+}
+.contact img{
+    width: 20px;
+   
+
+}
+
+.footermenu {
+    width: 25%;
+    float: left;
+    margin: 0 0 0 252px;
+
+}
+.footermenu h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    margin: 0 0 31px 0;
+}
+
+.footernav {
+}
+.footernav ul{
+    list-style: square;
+
+}
+.footernav ul li{
+
+}
+.footernav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 28px;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+    color: #CD3B62;
+}
+.subscribe {
+    width: 25%;
+    float: left;
+    margin: 0 0 0px 20px;
+
+}
+.subscribe h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    margin: 0 0 31px 0;
+}
+.subscribe p{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 27px;
+    margin: 0 0 60px 0;
+
+
+}
+.subscribe input{
+    height: 40px;
+
+}
+.subscribe button{
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+
+}
+/*footer service end */
+
+/*footer start */
+.footer{
+    background-color: black;
+    height: 70px;
+
+}
+.footer h4{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+/*footer end */
